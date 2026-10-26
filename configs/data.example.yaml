@@ -1,6 +1,17 @@
-# Copy to configs/data.local.yaml and adjust only on your machine.
-dataset_root: data/processed/PCB_Baseline_v1
-split_manifest: data/splits/split_manifest.csv
-split_config: data/splits/split_config.json
-image_size: 640
-seed: 42
+# Sao chép thành configs/data.local.yaml.
+# Thay path bằng đường dẫn tuyệt đối đến dataset đã giải nén.
+# Trên Windows dùng dấu /, ví dụ E:/pcb-defect-detection/data/processed/PCB_Baseline_v1
+
+path: /absolute/path/to/PCB_Baseline_v1
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: missing_hole
+  1: mouse_bite
+  2: open_circuit
+  3: short
+  4: spur
+  5: spurious_copper
