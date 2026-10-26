@@ -1,8 +1,0 @@
-model: yolov8n.pt
-data: configs/data.local.yaml
-epochs: 100
-imgsz: 640
-batch: 16
-seed: 42
-project: runs
-name: baseline
