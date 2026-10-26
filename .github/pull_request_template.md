@@ -1,13 +1,14 @@
 ## Mục tiêu
 
-<!-- Mô tả ngắn gọn thay đổi. -->
+<!-- Mô tả thay đổi và nhiệm vụ liên quan. -->
 
 ## Kiểm tra
 
-- [ ] Đã chạy `python scripts\verify_dataset.py` nếu thay đổi dữ liệu.
-- [ ] Đã dùng đúng split và seed trong giao thức.
-- [ ] Không thêm dữ liệu lớn, checkpoint hoặc thông tin đăng nhập.
+- [ ] Notebook đã chạy trên Kaggle, hoặc ghi rõ phần chưa chạy.
+- [ ] Đã dùng đúng phiên bản dataset, split và seed đã thống nhất nếu có thực nghiệm.
+- [ ] Không thêm ảnh, ZIP, checkpoint hoặc thông tin đăng nhập vào Git.
+- [ ] Không thay đổi metadata chia tập ngoài phạm vi được duyệt.
 
-## Kết quả validation
+## Kết quả và lần chạy
 
-<!-- Ghi chỉ số và cấu hình liên quan. -->
+<!-- Link Kaggle Notebook/Version, phần cứng, cấu hình và kết quả validation nếu có. -->

@@ -1,6 +1,0 @@
-# Copy to configs/data.local.yaml and adjust only on your machine.
-dataset_root: data/processed/PCB_Baseline_v1
-split_manifest: data/splits/split_manifest.csv
-split_config: data/splits/split_config.json
-image_size: 640
-seed: 42

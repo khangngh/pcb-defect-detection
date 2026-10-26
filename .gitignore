@@ -1,10 +1,10 @@
-# Python
+# Python và Jupyter
 __pycache__/
 *.py[cod]
 .venv/
 .ipynb_checkpoints/
 
-# Dữ liệu tải về và giải nén
+# Dataset và archive trên máy; ảnh/nhãn chính nằm trên Kaggle
 /data/raw/
 /data/processed/
 /PCB_Baseline_v1/
@@ -12,7 +12,7 @@ __pycache__/
 *.7z
 *.rar
 
-# Kết quả huấn luyện
+# Output huấn luyện và checkpoint
 /runs/
 /outputs/
 /checkpoints/
@@ -20,7 +20,12 @@ __pycache__/
 *.pth
 *.onnx
 
-# Cấu hình riêng và thông tin đăng nhập
+# Thông tin đăng nhập và cấu hình riêng
 .env
-/configs/data.local.yaml
+.env.*
+!.env.example
 /kaggle.json
+/configs/data.local.yaml
+
+# Bản vá tải về chỉ để áp dụng cục bộ
+*.patch
