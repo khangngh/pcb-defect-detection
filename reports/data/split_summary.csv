@@ -1,0 +1,4 @@
+split,images,groups,boards,boxes,actual_percent,target_percent
+train,7324,7,7,15140,69.01620806634,70.0
+val,1588,2,2,3680,14.964191481341878,15.0
+test,1700,1,1,2772,16.01960045231813,15.0

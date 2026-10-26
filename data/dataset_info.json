@@ -1,0 +1,59 @@
+{
+  "name": "PCB_Baseline_v1",
+  "images": 10612,
+  "boxes": 21592,
+  "classes": [
+    "missing_hole",
+    "mouse_bite",
+    "open_circuit",
+    "short",
+    "spur",
+    "spurious_copper"
+  ],
+  "class_ids": {
+    "missing_hole": 0,
+    "mouse_bite": 1,
+    "open_circuit": 2,
+    "short": 3,
+    "spur": 4,
+    "spurious_copper": 5
+  },
+  "split_fingerprint": "b1aafdd0aa23fa30b74e77940c04046c47dad786d3b785a737c6547b988e2089",
+  "source": "HRIPCB/PKU augmented VOC_PCB supplied by user",
+  "input_images": 10668,
+  "quarantined_images": 56,
+  "removed_consistent_duplicates": 0,
+  "grouping": "board ID parsed from filename plus exact-hash connections",
+  "coordinate_convention": "YOLO normalized xywh; pixel metadata uses 0-based half-open",
+  "new_augmentation_added": false,
+  "trained_models_included": false,
+  "split_images": {
+    "train": 7324,
+    "test": 1700,
+    "val": 1588
+  },
+  "split_boards": {
+    "train": [
+      "board_01",
+      "board_05",
+      "board_07",
+      "board_08",
+      "board_09",
+      "board_11",
+      "board_12"
+    ],
+    "val": [
+      "board_06",
+      "board_10"
+    ],
+    "test": [
+      "board_04"
+    ]
+  },
+  "limitations": [
+    "Board IDs are inferred from filenames, not independently confirmed.",
+    "Test contains one board; variants/crops are correlated.",
+    "No guarantee against visually similar images with different hashes.",
+    "Review original dataset terms before sharing outside the project."
+  ]
+}

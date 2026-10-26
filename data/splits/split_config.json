@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "target_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "board_regex": "(?:^|_)light_(\\d+)_",
+  "label_atol_pixels": 1e-06,
+  "input_images": 10668,
+  "retained_images": 10612,
+  "removed_extra_copies": 0,
+  "conflict_policy": "quarantine",
+  "quarantined_images": 56,
+  "independent_groups": 10,
+  "fingerprint": "b1aafdd0aa23fa30b74e77940c04046c47dad786d3b785a737c6547b988e2089",
+  "split_score": 0.023400087955231273
+}

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Dữ liệu tải về và giải nén
+/data/raw/
+/data/processed/
+/PCB_Baseline_v1/
+*.zip
+*.7z
+*.rar
+
+# Kết quả huấn luyện
+/runs/
+/outputs/
+/checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Cấu hình riêng và thông tin đăng nhập
+.env
+/configs/data.local.yaml
+/kaggle.json

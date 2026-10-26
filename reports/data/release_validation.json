@@ -1,0 +1,18 @@
+{
+  "validation": {
+    "status": "passed",
+    "images": 10612,
+    "boxes": 21592,
+    "split_images": {
+      "test": 1700,
+      "train": 7324,
+      "val": 1588
+    },
+    "split_fingerprint": "b1aafdd0aa23fa30b74e77940c04046c47dad786d3b785a737c6547b988e2089",
+    "checksummed_files": 21243
+  },
+  "archive": "PCB_Baseline_v1.zip",
+  "archive_bytes": 1179330237,
+  "archive_sha256": "78a8aaa095c32d5c6276e05ac792439d49732e4794703dcac9ad05c7d8d70881",
+  "note": "Manifest checked; source board IDs inferred from filenames."
+}

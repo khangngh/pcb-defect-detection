@@ -1,0 +1,7 @@
+class_name,train,val,test
+missing_hole,2536,608,468
+mouse_bite,2592,636,456
+open_circuit,2416,652,464
+short,2408,600,444
+spur,2620,568,448
+spurious_copper,2568,616,492
