@@ -27,13 +27,6 @@ pcb-defect-detection/
     └── task_assignment.md
 ```
 
-## Dữ liệu trên Kaggle
-
-- Bộ dùng chung: `PCB_Baseline_v1`, gồm 10.612 ảnh và 21.592 bbox.
-- Link Kaggle Dataset: **chưa bổ sung**. Người phụ trách dữ liệu cập nhật link và số phiên bản sau khi upload.
-- Các thành viên dùng đúng phiên bản đó và cùng manifest trong `data/splits/`.
-- Ảnh và nhãn không được commit vào Git; ZIP được upload thành Kaggle Dataset để chia sẻ trong nhóm.
-- Thống kê, báo cáo làm sạch và metadata dataset nằm trong `reports/data/`.
 
 ## Chạy notebook
 
@@ -46,15 +39,6 @@ pcb-defect-detection/
 `notebooks/data_preparation.ipynb` đã có quy trình chuẩn bị dữ liệu.
 `notebooks/baseline_yolov8n.ipynb` hiện là khung giao việc, **chưa có code huấn luyện hoặc kết quả**.
 Không cần thiết lập môi trường huấn luyện trên laptop cho quy trình này.
-
-## Thực nghiệm và cộng tác
-
-Đọc [quy tắc thực nghiệm](docs/experiment_protocol.md) và [phân công](docs/task_assignment.md).
-Chọn mô hình bằng validation; giữ test cho đánh giá cuối. Không tự chia lại dữ liệu.
-Checkpoint và log đầy đủ lưu trong Kaggle Output; repo giữ bảng kết quả, biểu đồ cần thiết và link lần chạy.
-
-Mỗi nhiệm vụ dùng nhánh riêng, ví dụ `feature/baseline-yolov8n`, rồi tạo PR vào `main` để quản trị viên review.
-File CODEOWNERS chỉ định người duyệt; cần bật yêu cầu review trong Settings để GitHub thực thi.
 
 ## Nguồn dữ liệu và giới hạn
 
