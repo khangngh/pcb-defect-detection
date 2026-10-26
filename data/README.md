@@ -30,3 +30,18 @@ không phải đường dẫn bắt buộc trên mọi máy. Gói dataset có ma
 
 Notebook chuẩn bị dữ liệu vẫn chứa công cụ kiểm tra và đóng gói; nhóm không cần chạy lại bước này để train baseline.
 Với cải tiến dữ liệu, tạo phiên bản train riêng và giữ nguyên validation/test của baseline.
+
+## Nguồn dữ liệu ban đầu
+
+- Tên: HRIPCB / PKU PCB
+- Kaggle: https://www.kaggle.com/datasets/khangisme/hripcb-pku-pcb/
+- Đây là dữ liệu nguồn dùng trong notebook `data_preparation.ipynb`.
+
+## Dữ liệu dùng để huấn luyện
+
+- Tên: PCB_Baseline_v1
+- Kaggle: https://www.kaggle.com/datasets/khangisme/pcb-baseline-v1-zip
+- Gồm 10.612 ảnh, 21.592 bounding box và 6 loại lỗi.
+- Nhãn theo định dạng YOLO TXT.
+- Đã chia cố định train/validation/test.
+- Các thành viên Add Input bộ này trên Kaggle để huấn luyện; không tự chia lại.

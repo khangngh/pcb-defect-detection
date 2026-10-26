@@ -58,6 +58,11 @@ File CODEOWNERS chỉ định người duyệt; cần bật yêu cầu review tr
 
 ## Nguồn dữ liệu và giới hạn
 
-Nguồn ban đầu: [PKU PCB / TDD-Net](https://github.com/Ixiaohuihuihui/Tiny-Defect-Detection-for-PCB).
-Bản baseline giữ các ảnh augmented sẵn có, chưa bổ sung crop cải tiến của nhóm.
-ID bảng mạch được suy từ tên file; test hiện chỉ có một board nên cần ghi giới hạn khi báo cáo.
+Nguồn ban đầu: [HRIPCB / PKU PCB](https://robotics.pkusz.edu.cn/resources/dataset/).
+
+## Dữ liệu
+
+- [Dữ liệu nguồn HRIPCB / PKU PCB](https://www.kaggle.com/datasets/khangisme/hripcb-pku-pcb/)
+- [Dữ liệu huấn luyện PCB_Baseline_v1](https://www.kaggle.com/datasets/khangisme/pcb-baseline-v1-zip)
+- [Chi tiết và quy tắc sử dụng dữ liệu](data/README.md)
+
